@@ -1,0 +1,17 @@
+---
+layout: page
+---
+<h1>Category: {{ page.category }}</h1>
+
+<ul>
+  {% assign cat = page.category | downcase %}
+  {% for post in site.posts %}
+    {% assign postcats = post.categories | join: ' ' | downcase %}
+    {% if postcats contains cat %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small> — {{ post.date | date: "%Y-%m-%d" }}</small>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
