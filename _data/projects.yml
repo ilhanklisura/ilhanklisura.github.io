@@ -1,0 +1,68 @@
+- name: Eventify
+  tagline: Events, ticketing & basic analytics (SPA)
+  status: public
+  links:
+    github: https://github.com/ilhanklisura/eventify
+  stack:
+    - .NET 8
+    - Web API
+    - EF Core
+    - SQL Server
+    - Vue 3
+    - TypeScript
+    - Vite
+    - Vuetify
+    - JWT
+    - RBAC
+
+- name: V-Inspect
+  tagline: Vehicle registration & technical inspection scheduling
+  status: public
+  links:
+    github: https://github.com/ilhanklisura/V-Inspect
+  stack:
+    - C#
+    - .NET
+    - ASP.NET Core
+    - EF Core
+    - SQL Server
+    - React
+    - JWT
+    - Swagger / OpenAPI
+
+- name: FinancePal
+  tagline: Android expense & budget tracker
+  status: public
+  links:
+    github: https://github.com/ilhanklisura/FinancePal
+  stack:
+    - Kotlin
+    - Jetpack Compose
+    - Room
+
+- name: cli-golang
+  tagline: CLI task manager
+  status: public
+  links:
+    github: https://github.com/ilhanklisura/cli-golang
+  stack:
+    - Go
+
+- name: webscraper-golang
+  tagline: Lightweight web scraper
+  status: public
+  links:
+    github: https://github.com/ilhanklisura/webscraper-golang
+  stack:
+    - Go
+
+- name: FFWD-2024
+  tagline: Frontend course projects (HTML/CSS/JS + React)
+  status: public
+  links:
+    github: https://github.com/ilhanklisura/FFWD-2024
+  stack:
+    - HTML
+    - CSS
+    - JavaScript
+    - React

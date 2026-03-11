@@ -23,7 +23,7 @@
                href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {% endif %}
         {% endfor %}
-        <button id="theme-toggle" class="theme-toggle" onclick="__toggleTheme()">🌙 Dark</button>
+        <button id="theme-toggle" class="theme-toggle" type="button" onclick="__toggleTheme()" aria-label="Toggle theme">🌙</button>
       </div>
     </nav>
   </div>

@@ -1,5 +1,14 @@
-<footer class="site-footer" style="padding: 1rem 0; text-align:center; font-size:0.9rem;">
-  <div class="wrapper">
-    <span>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</span>
+<footer class="site-footer" role="contentinfo">
+  <div class="wrapper footer-inner">
+    <div class="footer-left">
+      <span>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</span>
+      <span class="muted">·</span>
+      <span class="muted">{{ site.description }}</span>
+    </div>
+    <div class="footer-right">
+      <a class="footer-link" href="mailto:{{ site.email }}">Email</a>
+      <a class="footer-link" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+      <a class="footer-link" href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
   </div>
 </footer>

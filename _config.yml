@@ -2,6 +2,8 @@ title: Klisura Ilhan
 email: work@ilhanklisura.com
 description: "Software Engineer"
 url: "https://ilhanklisura.com"
+lang: en
+timezone: Europe/Sarajevo
 
 author:
   name: "Ilhan Klisura"
@@ -20,6 +22,7 @@ plugins:
 header_pages:
   - about.markdown
   - resume.markdown
+  - projects.markdown
   - blog.markdown
 
 permalink: /blog/:title/

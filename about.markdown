@@ -4,9 +4,29 @@ title: About
 permalink: /about/
 ---
 
-I’m a software engineer focused on building reliable, secure, and clean web applications. I like clear architecture, efficient APIs, and UIs that feel effortless to use.
+## Ilhan Klisura
 
-**Currently:** EMIS projects at **Orbicode d.o.o.** (Sarajevo Canton, Central Bosnia Canton, Bosnia Podrinje Canton, with Human Resources and Professor Modules), plus personal side projects.
+<p class="muted">
+  Software Engineer | .NET • Golang • Azure • AI Integrations |
+  <br/>
+  Sarajevo, Federation of Bosnia and Herzegovina, Bosnia and Herzegovina
+</p>
+
+## About
+
+Passionate Software Engineer with experience in building scalable, secure, and high-performance web applications using **React.js**, **Vue.js + TypeScript**, **C#/.NET Core** and **SQL Server/PostgreSQL**. Skilled in designing clean architectures, implementing CI/CD pipelines (**Jenkins**, **GitHub Actions**), integrating REST APIs and **AI Model Implementation & Integration** (**Ollama**, **OpenAI**, **Google Gemini**, **ElevenLabs**, and **PolyAI**).
+
+I have a proven track record of delivering solutions in both enterprise and startup environments, optimizing database performance, and enhancing user experiences through well-designed UI/UX. Always eager to learn emerging technologies like **Golang** and cloud platforms to stay ahead of industry trends.
+
+## Top skills
+
+<p>
+  <span class="category-chip">C#</span>
+  <span class="category-chip">.NET</span>
+  <span class="category-chip">TypeScript</span>
+  <span class="category-chip">Microsoft SQL Server</span>
+  <span class="category-chip">Artificial Intelligence (AI)</span>
+</p>
 
 ### Outside of work / Hobbies
 travel, and tinkering with ideas and products.
