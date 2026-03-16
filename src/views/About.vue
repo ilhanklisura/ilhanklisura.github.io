@@ -2,7 +2,9 @@
 import TimelineItem from '@/components/ui/TimelineItem.vue'
 import SkillBadge from '@/components/ui/SkillBadge.vue'
 
-const skills = {
+type SkillsMap = Record<string, string[]>
+
+const skills: SkillsMap = {
   frontend: ['Vue 3','React','TypeScript','JavaScript'],
 
   backend: ['C#','.NET','Golang','Python','Node.js'],
