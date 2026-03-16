@@ -70,17 +70,17 @@ const featuredProjects = ref([
         </div>
       </div>
 
-      <div class="flex flex-col sm:flex-row gap-4">
+      <div class="grid grid-cols-2 gap-4 max-w-md">
         <router-link
           to="/projects"
-          class="px-8 py-4 bg-primary-500 hover:bg-primary-600 text-white font-bold rounded-lg transition-colors shadow-lg shadow-primary-500/30 flex items-center justify-center gap-2"
+          class="px-6 py-4 bg-primary-500 hover:bg-primary-600 text-white font-bold rounded-lg transition-colors shadow-lg shadow-primary-500/30 text-center"
         >
           View My Work
         </router-link>
 
         <router-link
           to="/contact"
-          class="px-8 py-4 bg-dark-800 hover:bg-dark-700 text-slate-200 border border-dark-600 font-bold rounded-lg transition-colors flex items-center justify-center gap-2"
+          class="px-6 py-4 bg-dark-800 hover:bg-dark-700 text-slate-200 border border-dark-600 font-bold rounded-lg transition-colors text-center"
         >
           Let's Talk
         </router-link>
