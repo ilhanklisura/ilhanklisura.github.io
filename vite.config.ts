@@ -24,5 +24,5 @@ export default defineConfig({
       '@': resolve(__dirname, './src'),
     },
   },
-  base: '/', // important for GitHub Pages deployment
+  base: './', // important for GitHub Pages deployment
 })
